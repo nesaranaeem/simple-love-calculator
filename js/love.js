@@ -13,14 +13,6 @@ document
     showJantusName.innerText = jantusName.toUpperCase();
     //result
     const result = document.getElementById("calculation-result");
-    let finalResult = Math.floor(Math.random() * 101);
+    let finalResult = Math.floor(Math.random() * 101) + "%";
     result.innerText = finalResult;
   });
-// validation
-function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
