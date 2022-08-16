@@ -43,10 +43,10 @@
           <!-- Button trigger modal -->
           <button
             type="button"
+            id="calculate-love-btn"
             class="btn btn-primary btn-lg text-center"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
-            id="calculate-love-btn"
           >
             Calculate Love
           </button>
@@ -76,8 +76,19 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <h2>Your Valobasha Is</h2>
+                  <h2 id="your-valobasha-is">Your Valobasha Is</h2>
                   <h3 id="calculation-result"></h3>
+                  <div>
+                    <figure class="text-center">
+                      <blockquote class="blockquote">
+                        <p id="gurur-comment"></p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        By Guru
+                        <cite title="Source Title">Nesar A. Naeem</cite>
+                      </figcaption>
+                    </figure>
+                  </div>
                 </div>
                 <div class="modal-footer">
                   <button
